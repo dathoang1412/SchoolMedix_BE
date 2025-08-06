@@ -8,4 +8,3 @@ const router = express.Router();
 router.post('/ai-response', verifyAndAuthorize(["student", "parent"]), getResponseFromAI);
 
 export default router;
-
